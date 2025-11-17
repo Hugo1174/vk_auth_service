@@ -1,0 +1,6 @@
+# requirements.txt
+fastapi
+uvicorn
+authlib[asyncio]
+httpx
+python-dotenv
