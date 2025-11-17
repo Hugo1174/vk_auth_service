@@ -1,6 +1,6 @@
 # requirements.txt
 fastapi
 uvicorn
-authlib[asyncio]
 httpx
 python-dotenv
+python-jose[cryptography] # Добавлено для работы с JWT
